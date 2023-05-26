@@ -1,0 +1,23 @@
+@media (max-width: 1199px) {
+ 
+}
+@media (max-width: 991px) {
+    .fslider{
+        position: relative;
+        background-color: #BF2928;
+        overflow: hidden;
+        padding: 19px 50px 19px 19px;
+    }
+}
+@media (max-width: 767px) {
+
+ 
+}
+@media (max-width: 565px) {
+  
+}
+@media (max-width: 350px) {
+  
+}
+
+/*# sourceMappingURL=media.css.map */

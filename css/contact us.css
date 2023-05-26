@@ -1,0 +1,282 @@
+.mask{
+    margin-right: 20px;
+  }
+  .mask .a1{
+    font-size: 11px;
+  }
+  .mask .a2{
+    font-size: 14px;
+  }
+  .mask .a3{
+    font-size: 13px;
+  }
+  .mask svg:hover{
+    color: #C09200;
+  }
+  
+  .toggle span{
+    font-size: 22px;
+  }
+  .toggle svg{
+    margin: 0 5px;
+  }
+  .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+  }
+  .navbar-nav .nav-item .nav-link:hover{
+    color: #C09200;
+    border-bottom: 2px solid #C09200;
+  }
+  
+  .dropdown-item:hover,.dropdown-item:focus{
+    color: #C09200;
+    border-bottom: 2px solid #C09200;
+    background-color: transparent;
+  }
+  
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.title{
+    width: 98%;
+    position: relative;
+}
+.bgcolor {
+    background-image: url("../images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    /* position: relative; */
+    padding-top: 20px;
+    padding-left: 100px;
+    height: 150px;
+    width: 95%;
+}
+
+.laycover {
+    position: absolute;
+    background-color: #000;
+    opacity: 0.6;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 1349px;
+}
+.pha{
+    display: flex;
+    width: 138px;
+    justify-content: space-between;
+}
+.pha .max{
+    color: #fff;
+    margin: 1px;
+}
+.pha .hpro{
+    color: #fff;
+    text-decoration: none;
+}
+.pha .hpro:hover{
+   text-decoration: underline;
+}
+
+.pagetitle {
+    position: absolute;
+    z-index: 3;
+}
+
+.page-title {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.link1 {
+    padding: 30px 30px;
+}
+
+.spcont {
+    color: #fff;
+    margin: 1px;
+
+}
+
+
+.row {
+    text-align: center;
+    font-size: 135%;
+    font-family: cairo;
+    font-style: normal;
+    margin: 46px 11px;
+}
+
+
+
+/* pragraph div */
+.par .scp p{
+    width: 70%;
+    text-align: center;
+    margin-bottom: 49px;
+}
+.par .scp{
+    display: flex;
+    justify-content: center;
+}
+/* address */
+.add{
+    position: absolute;
+    right: 113px;
+    top: 498px;
+}
+.add-content{
+    background-color: #F1F1F1;
+    width: 579px;
+    height: 335px;
+    margin-bottom: 50px;
+    padding: 5px;
+    padding-left: 17px;
+}
+.p1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.p2{
+    font-size: 15px;
+}
+.p3{
+    margin-top: 10px;
+
+}
+.p4{
+    margin-bottom: 34px;
+}
+.p5{
+    font-size: 17px;
+}
+.p6{
+    text-decoration: none;
+    color: #888;
+}
+.p6:hover{
+    text-decoration: underline;
+}
+/* form */
+.form-contents{
+    margin-top: 415px;
+}
+.form-contents .formpg{
+    text-align: center;
+}
+.form-contents .formpg p{
+    width: 588px;
+    margin: auto;
+}
+/* form elements */
+.formele{
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.fm{
+    background-color: #777;
+    width: 882px;
+    height: 532px;}
+form {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+form label{
+    font-size: 18px;
+    color: #fff;
+}
+.cont1{
+    margin: 34px 28px;
+}
+input{
+    background-color: #777;
+    border: 1px solid #999;
+    height: 38px;
+    width: 195px;
+    margin: 8px 0;
+    outline: 0;
+    margin-right: 23px;
+}
+input:focus{
+    border:1px solid #C09200;
+}
+.sub{
+    background-color: #C09200;
+    color: #fff;
+    border-radius: 27px;
+    width: 137px;
+    height: 42px;
+    font-size: 17px;
+}
+.sub:hover{
+    color: #C09200;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 80px;
+    background-color: #4a4a4a;
+    height: 100px;
+    padding: 40px 70px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .iconns{
+    margin-top: -100px;
+    float:right;
+    margin-right: 200px;
+  }
+  
+  .icon1{
+    margin-right: 20px;
+  }
+  
+  .conn{
+    display: flex;
+    margin-top: -38px;
+  padding-left: 50px;
+  }
+  
+  .imgs{
+    padding: 60px;
+  }
+  
+  .right{
+    margin-top: 34px;
+    padding-left: 40px;
+    color: #fff;
+  }
+  
+  .follow{
+    background-color:#c09200;
+    width: 400px;
+    height: 150px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -150px;
+  }
+  
+  .icon1:hover{
+  color:#c09200;
+  }
+  
